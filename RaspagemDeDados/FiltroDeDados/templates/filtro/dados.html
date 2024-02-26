@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+</head>
+<body>
+    <h1>Dados Coletados</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Papel</th>
+                <th>Segmento</th>
+                <th>Cotação</th>
+                <th>FFO Yield</th>
+                <th>Dividend Yield</th>
+                <th>P/VP</th>
+                <th>Valor de Mercado</th>
+                <th>Liquidez Diaria</th>
+                <th>Qauntidade de Imoveis</th>
+                <th>Preço/m²</th>
+                <th>Aluguel/m²</th>
+                <th>Cap Rate</th>
+                <th>Vacândia Média</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for fundo in dataset %}
+            <tr>
+                <td>{{ fundo.Papel }}</td>
+                <td>{{ fundo.Segmento }}</td>
+                <td>{{ fundo.Cotação }}</td>
+                <td>{{ fundo.FFO_Yield }}</td>
+                <td>{{ fundo.Dividend_Yield }}</td>
+                <td>{{ fundo.P_VP }}</td>
+                <th>{{ fundo.ValorDeMercado}}</th>
+                <th>{{ fundo.LiquidezDiari}}</th>
+                <th>{{ fundo.QauntidadeImoveis}}</th>
+                <th>{{ fundo.PreçoM2}}</th>
+                <th>{{ fundo.AluguelM2}}</th>
+                <th>{{ fundo.CapRate}}</th>
+                <th>{{ fundo.VacandiaMedia}}</th>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+</head>
+<body>
+    <h1>Tabela de Dados</h1>
+    {{ tabela_hmtl | safe }}
+</body>
+</html> -->
